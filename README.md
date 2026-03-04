@@ -1,16 +1,105 @@
-# React + Vite
+# 🌈 Holi Wish Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Holi Greeting Web App** built with **React.js**.
+Users can enter their name and receive a personalized Holi wish with **confetti animation and festive music**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+* 🎨 Personalized Holi wish
+* 🎉 Confetti celebration animation
+* 🎶 Background Holi music
+* 👤 User name input field
+* ⚡ Smooth and responsive UI
+* 💻 Built with React functional components and hooks
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🖥️ Demo Flow
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Open the webpage
+2. Enter your name
+3. Click **Reveal Wish**
+4. 🎉 Confetti animation + music starts
+5. Personalized **Happy Holi message** appears
+
+---
+
+## 🛠️ Tech Stack
+
+* **React.js**
+* **JavaScript (ES6)**
+* **CSS3**
+* **canvas-confetti** (for animation)
+
+---
+
+## 📂 Project Structure
+
+```
+holywish
+│
+├── public
+│
+├── src
+│   ├── assets
+│   │   └── holi.mp3
+│   │
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚀 Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/dhruv3980/holywish2.git
+```
+
+Go into the project directory:
+
+```bash
+cd holywish2
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm start
+```
+
+The app will run at:
+
+```
+http://localhost:3000
+```
+
+---
+
+
+## 👨‍💻 Author
+
+**Dhruv Sahu**
+
+* GitHub: https://github.com/dhruv3980
+* Full Stack Developer (MERN)
+
+---
+
+## 🎊 Happy Holi!
+
+May this festival of colors bring happiness, positivity, and success to everyone.
